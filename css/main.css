@@ -1,0 +1,18 @@
+/*
+	Define your custom CSS here. Whatever you do will 
+	'override' what Bootstrap has, but will still have 
+	the same functionality unless you **completely** override it.
+*/
+
+
+html {
+	color: red; /* this is for font */
+}
+
+body {
+	background: black; /* black background; also, you generally want to refrain from !important unless absolutely necessary (from what I hear) */
+}
+
+.row {
+	color: #cc0000; /* this is for font */
+}
