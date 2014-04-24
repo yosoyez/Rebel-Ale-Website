@@ -16,3 +16,7 @@ body {
 .row {
 	color: #cc0000; /* this is for font */
 }
+.Logo {
+	margin-top: 25px; /*added margin to the top */
+	margin-bottom: 25px;
+}
