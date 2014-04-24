@@ -20,3 +20,15 @@ body {
 	margin-top: 25px; /*added margin to the top */
 	margin-bottom: 25px;
 }
+
+.modal {
+	background: black;
+}
+
+.modal-content{
+	color: white;
+}
+
+.modal-header, .modal-footer, .modal-body{
+	background: #0000A0;
+}
