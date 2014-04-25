@@ -1,23 +1,17 @@
-/*
-	Define your custom CSS here. Whatever you do will 
-	'override' what Bootstrap has, but will still have 
-	the same functionality unless you **completely** override it.
-*/
-
-
 html {
-	color: #800000; /* this is for font */
+	color: #800000;
 }
 
 body {
-	background: #420600 url('img/bg-texture.jpg') repeat; /* black background; also, you generally want to refrain from !important unless absolutely necessary (from what I hear) */
+	background: #420600 url('img/bg-texture.jpg') repeat; /* Where is this texture from? */
 }
 
 .row {
-	color: white; /* this is for font */
+	color: white;
 }
+
 .Logo {
-	margin-top: 25px; /*added margin to the top */
+	margin-top: 25px;
 	margin-bottom: 25px;
 }
 
@@ -34,7 +28,9 @@ body {
 .btn-primary{
 	background: #420600 url('img/bg-texture.jpg') no-repeat;
 }
+
 .btn-primary:hover{
 	color: black;
 	background: #420600 url('img/bg-texture.jpg') no-repeat;
 
+/* Something is wrong with the .btn-primary... */

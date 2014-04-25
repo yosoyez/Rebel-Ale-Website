@@ -14,17 +14,17 @@
 	<!-- load the Bootstrap JavaScript -->
 	<script src="js/bootstrap.js"></script>
 
-	 <script type="text/javascript">
-	    $(window).load(function(){
-	         $('#myModal').modal('show');
-	     });
-	 </script>	
+	<script type="text/javascript">
+		$(window).load(function(){
+			$('#myModal').modal('show');
+		});
+	</script>	
 </head>
 <body>
-	<div class="container"> <!-- take notice of this -->
+	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<img src="img/shield6.jpg" alt="Logo" class="Logo center-block"> <!-- centered it for you -->
+				<img src="img/shield6.jpg" alt="Logo" class="Logo center-block img-responsive"> <!-- made it responsive -->
 			</div><!-- end col-md-12 -->
 		</div><!-- end row -->
 		<div class="row">
@@ -38,27 +38,27 @@
 					<h2>Contact Us:</h2>
 					<p>insert contact info here.</p>
 				</div>
-			</div>
-		</div>	
-	</div>
+			</div><!-- end col-xs-12 -->
+		</div><!-- end row -->
+	</div><!-- end container -->
 
-	 <div class="modal fade" id="myModal" data-backdrop="static" data-keyboard="false"> <!-- This keeps makes it so they button must be pressed to exit the modal -->
-		 <div class="modal-dialog">
-		     <div class="modal-content">	
-			  <div class="modal-header text-center">
-			   <!--  <a class="close" data-dismiss="modal">×</a> -->
-			    <h3>Welcome to Rebel Ale</h3>
-			  </div>
-			  <div class="modal-body text-center">
-			    <p>You must be 21 or older to enter.</p>
-			  </div>
-			  <div class="modal-footer">
-			    <a href="#" class="btn btn-primary center-block" data-dismiss= "modal">Yes, I am 21!</a> <!-- this is where you click to close it now -->
-			  </div>
+	<!-- you should customize your modal CSS to be a little thinner, it looks a little big right now -->
+	<div class="modal fade" id="myModal" data-backdrop="static" data-keyboard="false">
+		<div class="modal-dialog">
+			<div class="modal-content">	
+				<div class="modal-header text-center">
+					<h3>Welcome to Rebel Ale</h3>
+				</div>
+				<div class="modal-body text-center">
+					<p>You must be 21 or older to enter.</p>
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-primary btn-block" data-dismiss= "modal">Yes, I am 21!</a> <!-- this is where you click to close it now -->
+					<a href="#" class="btn btn-default btn-block">Get me out of here!</a> <!-- you need to redirect them elsewhere -->
+				</div>
 			</div>
 		</div>
 	</div>
 
 </body>
 </html>
-<!--Check out line #21 -->
