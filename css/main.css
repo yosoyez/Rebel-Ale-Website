@@ -24,7 +24,9 @@ body {
 	background: #000066 url('img/texture.png') repeat;
 	border-radius: 10px;
 	width: 300px;
-   left: 25%;
+
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .btn-primary{
@@ -35,7 +37,7 @@ body {
 	color: black;
 	background: #420600 url('img/bg-texture.jpg') no-repeat;
 }
-/* Something is wrong with the .btn-primary... */
+
 .btn-default{
 	background: #fff url('img/texture.png') repeat;
 }
