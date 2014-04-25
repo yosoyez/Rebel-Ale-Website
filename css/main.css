@@ -10,11 +10,11 @@ html {
 }
 
 body {
-	background: black; /* black background; also, you generally want to refrain from !important unless absolutely necessary (from what I hear) */
+	background: #420600 url('img/bg-texture.jpg') repeat; /* black background; also, you generally want to refrain from !important unless absolutely necessary (from what I hear) */
 }
 
 .row {
-	color: #800000; /* this is for font */
+	color: white; /* this is for font */
 }
 .Logo {
 	margin-top: 25px; /*added margin to the top */
@@ -27,15 +27,14 @@ body {
 
 .modal-content{
 	color: white;
-	background-color: #000066;
+	background: #000066 url('img/texture.png') repeat;
 	border-radius: 10px;
 }
 
 .btn-primary{
-	background:#800000;
+	background: #420600 url('img/bg-texture.jpg') no-repeat;
 }
 .btn-primary:hover{
 	color: black;
-	background: #800000;
-}
+	background: #420600 url('img/bg-texture.jpg') no-repeat;
 
