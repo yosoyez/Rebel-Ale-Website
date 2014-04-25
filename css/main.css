@@ -6,7 +6,7 @@
 
 
 html {
-	color: red; /* this is for font */
+	color: #800000; /* this is for font */
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 .row {
-	color: #cc0000; /* this is for font */
+	color: #800000; /* this is for font */
 }
 .Logo {
 	margin-top: 25px; /*added margin to the top */
@@ -27,8 +27,15 @@ body {
 
 .modal-content{
 	color: white;
+	background-color: #000066;
+	border-radius: 10px;
 }
 
-.modal-header, .modal-footer, .modal-body{
-	background: #0000A0;
+.btn-primary{
+	background:#800000;
 }
+.btn-primary:hover{
+	color: black;
+	background: #800000;
+}
+
