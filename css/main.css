@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	background: #420600 url('img/bg-texture.jpg') repeat; /* Where is this texture from? */
+	background: #420600 url('img/backup-texture.png') repeat; /* Where is this texture from? */
 }
 
 .row {
@@ -30,12 +30,12 @@ body {
 }
 
 .btn-primary{
-	background: #420600 url('img/bg-texture.jpg') no-repeat;
+	background: #420600 url('img/backup-texture.png') no-repeat;
 }
 
 .btn-primary:hover{
 	color: black;
-	background: #420600 url('img/bg-texture.jpg') no-repeat;
+	background: #420600 url('img/backup-texture.png') no-repeat;
 }
 
 .btn-default{
