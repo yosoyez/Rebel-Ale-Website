@@ -1,9 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+
 html {
 	color: #800000;
 }
 
 body {
-	background: #420600 url('img/backup-texture.png') repeat; /* Where is this texture from? */
+	background: #420600 url('img/backup-texture.png') repeat;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Roboto', sans-serif;
 }
 
 .row {
@@ -11,7 +17,7 @@ body {
 }
 
 .Logo {
-	margin: 25px 0;
+	margin: 25px auto;
 }
 
 .modal {
@@ -39,4 +45,13 @@ body {
 
 .btn-default{
 	background: #fff url('img/texture.png') repeat;
+}
+
+h1 {
+	font-weight: 900;
+}
+
+p {
+	font-weight: 400;
+	font-size: 16px;
 }
