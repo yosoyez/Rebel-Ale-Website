@@ -60,3 +60,6 @@ p {
 #mce-EMAIL, #mce-FNAME, #mce-LNAME, #mc-embedded-subscribe{
 	color: black;
 }
+label {
+width: 10em;
+}
