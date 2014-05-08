@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6, p {
 	background: #fff url('img/texture.png') repeat;
 }
 
+
 h1 {
 	font-weight: 900;
 }
@@ -54,4 +55,8 @@ h1 {
 p {
 	font-weight: 400;
 	font-size: 16px;
+}
+
+#mce-EMAIL, #mce-FNAME, #mce-LNAME, #mc-embedded-subscribe{
+	color: black;
 }
