@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Roboto', sans-serif;
 }
 
+
 .row {
 	color: white;
 }
@@ -47,7 +48,6 @@ h1, h2, h3, h4, h5, h6, p {
 	background: #fff url('img/texture.png') repeat;
 }
 
-
 h1 {
 	font-weight: 900;
 }
@@ -57,10 +57,11 @@ p {
 	font-size: 16px;
 }
 
-#mce-EMAIL, #mce-FNAME, #mce-LNAME, #mc-embedded-subscribe{
-	color: black;
-}
-
 label {
 width: 10em;
+}
+
+
+#mc_embed_signup .mc-field-group input {
+	color: #000; 
 }
