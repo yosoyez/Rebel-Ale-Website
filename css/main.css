@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 25px auto;
 }
 
+.Team{
+	margin: 25px auto;
+}
+
 .modal {
 	background: black;
 }
@@ -60,7 +64,6 @@ p {
 label {
 width: 10em;
 }
-
 
 #mc_embed_signup .mc-field-group input {
 	color: #000; 
